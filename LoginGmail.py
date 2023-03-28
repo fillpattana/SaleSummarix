@@ -1,6 +1,9 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
  
+ #pip install selenium
+ #pip install webdriver_manager
+ 
 print('Enter the gmailid and password')
 gmailId, passWord = map(str, input().split())
 try:
