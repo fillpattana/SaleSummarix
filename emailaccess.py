@@ -4,10 +4,10 @@ from email.header import decode_header
 import webbrowser
 import os
 
-username = "zhen.m249@hotmail.com"
-password = "053642258"
+username = "jokkongprab@gmail.com"
+password = "dnflidqshlhylrxf"
 
-imap_server = "outlook.office365.com"
+imap_server = "imap.gmail.com"
 
 
 def clean(text):
@@ -22,7 +22,7 @@ if imap.login(username, password):
 
 status, messages = imap.select("INBOX")
 # number of top emails to fetch
-N = 3
+N = 5
 # total number of emails
 messages = int(messages[0])
 
