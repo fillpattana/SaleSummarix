@@ -22,7 +22,7 @@ if imap.login(username, password):
 
 status, messages = imap.select("INBOX")
 # number of top emails to fetch
-N = 5
+N = 20
 # total number of emails
 messages = int(messages[0])
 
